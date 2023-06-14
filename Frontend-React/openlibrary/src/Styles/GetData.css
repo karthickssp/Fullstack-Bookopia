@@ -1,0 +1,96 @@
+#background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+#topic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#topic h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+#add_actions {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color:  #6560ef;
+  border: none;
+  width: 10rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ 
+}
+
+#add_actions:hover {
+  background-color: lightgreen;
+}
+
+#add_actions:active {
+  background-color: red;
+}
+
+#gettable {
+  margin: 0 auto;
+  border-collapse: separate;
+  width: 100%;
+  background: hsl(213deg 85% 97%);
+}
+
+#gettable th,
+#gettable td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 2px solid #ccc;
+}
+
+#gettable th {
+  background: hsl(212, 100%, 97%);
+}
+
+#view_action {
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color:  #6560ef;
+  width: 6rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+#view_action::after {
+  content: "VEIW";
+  display: none;
+}
+
+#view_action:hover::after {
+  display:inline-block;
+}
+
+#view_action:hover {
+  background-color: lightgreen;
+}
+
+.search-container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  margin: 10px;
+}

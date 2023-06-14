@@ -1,0 +1,87 @@
+.add-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: hsl(218deg 50% 91%);
+}
+
+.add-form {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  background: hsl(213deg 85% 97%);
+  box-shadow: 0 0 2em hsl(231deg 62% 94%);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.add-form h2 {
+  margin-bottom: 2rem;
+  color: black;
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: black;
+}
+
+input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  color: hsl(0deg 0% 30%);;
+  width: 95%;
+  
+}
+
+button#add-btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  width: 13rem;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  background-color: hsl(233deg 36% 38%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#cancel-btn {
+  margin-top: 2rem;
+  padding: 1rem 2.5rem;
+  width: 10rem;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  background-color: hsl(233deg 36% 38%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button#add-btn:hover {
+  background-color: lightgreen;
+}
+
+button#cancel-btn:hover {
+  background-color: lightcoral;
+}

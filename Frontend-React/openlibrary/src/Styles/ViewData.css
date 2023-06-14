@@ -1,0 +1,114 @@
+.view-book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(218deg 50% 91%);
+  }
+  .view-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: none;
+    background: hsl(213deg 85% 97%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+  }
+  .view-form h1 {
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  label {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    color: black;
+  }
+  span {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: hsl(0deg 0% 30%);;
+    width: 95%;
+  }
+  .space {
+    margin-left: 10px;
+  }
+  .button-container {
+    display: flex;
+    gap: 10px; 
+  }
+   .update{
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .delete {
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .back {
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    width: 10rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: hsl(233deg 36% 38%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+ .delete::after {
+    content: "DELETE";
+    display: none;
+  }
+  
+  .update:hover::after {
+    display:inline-block;
+  }
+ .update::after {
+    content: "UPDATE";
+    display: none;
+  }
+  
+  .delete:hover::after {
+    display:inline-block;
+  }
+ .back::after {
+    content: "CANCEL";
+    display: none;
+  }
+  
+  .back:hover::after {
+    display:inline-block;
+  }

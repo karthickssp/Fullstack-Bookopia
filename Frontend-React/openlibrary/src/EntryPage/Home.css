@@ -1,0 +1,83 @@
+
+.home-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: hsl(218deg 50% 91%);
+  }
+  
+  .group-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: none;
+    background: hsl(213deg 85% 97%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    border-radius: 10px;
+    max-width: 800px;
+    height: 100vh;
+    width: 100%;
+  }
+  .explore-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: none;
+    background: hsl(213deg 80% 92%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 250px;
+    width: 100%;
+  }
+  .maintain-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: none;
+    background: hsl(213deg 80% 92%);
+    box-shadow: 0 0 2em hsl(231, 91%, 87%);
+    border-radius: 10px;
+    max-width: 500px;
+    height: 250px;
+    width: 100%;
+  }
+  
+  .group-page h2 {
+    margin-bottom: 1rem;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  button.explore,
+  button.maintain {
+      margin-top: 2rem;
+      padding: 1rem 2.5rem;
+      font-size: 1.3rem;
+      color: #FFFFFF;
+      background-color: hsl(233deg 36% 38%);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+  
+  
+  button.explore:hover {
+    background-color: lightgreen;
+  }
+  
+  button.maintain:hover {
+    background-color: lightcoral;
+  }
+  .text{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 1rem;
+  }
